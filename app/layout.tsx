@@ -38,16 +38,16 @@ export const metadata: Metadata = {
   },
 
   robots: {
-  index: true,
-  follow: true,
-  googleBot: {
     index: true,
     follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
-},
 
   openGraph: {
     title: "Rasya Rifky — Designer, Developer & Animator",
@@ -62,8 +62,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rasya Rifky — Designer, Developer & Animator",
-    description:
-      "Design, code, and motion portfolio by Rasya Rifky.",
+    description: "Design, code, and motion portfolio by Rasya Rifky.",
   },
 };
 
@@ -79,9 +78,37 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Rasya Rifky",
+    alternateName: "Fyrnnn",
+    url: "https://rasyarifky.my.id",
+    jobTitle: "Designer, Programmer, and Motion Designer",
+    description:
+      "Portofolio Rasya Rifky yang menampilkan karya desain, pemrograman, dan animasi.",
+    sameAs: [
+      "https://www.youtube.com/channel/UCXfgabklGhnBH7a4a8HTdbA",
+      "https://www.instagram.com/rasyarifky_/",
+      "tiktok.com/@rasyarifkyy",
+      "https://github.com/rasyarifky",
+      // Isi tautan media sosial nanti
+      // "https://www.instagram.com/username",
+      // "https://www.linkedin.com/in/username",
+    ],
+  };
+
   return (
     <html lang="id">
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
