@@ -82,19 +82,19 @@ export const designs: Work[] = [
   },
   {
     id: "d6",
-    title: "Poster Kampanye Anti Judol",
-    subtitle: { id: "Poster Kampanye", en: "campaign poster" },
+    title: "Gerbang Emas Kemerdekaan",
+    subtitle: { id: "Poster", en: "Poster" },
     tone: 6,
-    image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
+    image: "https://drive.google.com/file/d/1sS6RLKa1lxESlki7FcLnQEIOSDubbu-0/view?usp=drive_link",
     description: {
-      id: "Poster ini saya buat untuk memenuhi tugas DKV",
-      en: "I made this poster to fulfill DKV's assignment",
+      id: "Poster ini saya buat untuk mengikuti lomba yang disediakan oleh kominfo dan Mimika Berkarya Fest",
+      en: "I made this poster to enter the competition provided by Kominfo and Mimika Berkarya Fest",
     },
   },
   {
     id: "d5",
     title: "Poster Kampanye Anti Judol",
-    subtitle: { id: "Poster Kampanye", en: "campaign poster" },
+    subtitle: { id: "Poster Kampanye", en: "Campaign Poster" },
     tone: 5,
     image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
     description: {
