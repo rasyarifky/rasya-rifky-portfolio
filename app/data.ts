@@ -49,7 +49,7 @@ export const designs: Work[] = [
     id: "d7",
     title: "Poster Kampanye Anti Judol",
     subtitle: { id: "Poster Kampanye", en: "campaign poster" },
-    tone: 4,
+    tone: 6,
     image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
     description: {
       id: "Poster ini saya buat untuk memenuhi tugas DKV",
@@ -60,7 +60,7 @@ export const designs: Work[] = [
     id: "d6",
     title: "Poster Kampanye Anti Judol",
     subtitle: { id: "Poster Kampanye", en: "campaign poster" },
-    tone: 4,
+    tone: 5,
     image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
     description: {
       id: "Poster ini saya buat untuk memenuhi tugas DKV",
@@ -87,17 +87,6 @@ export const designs: Work[] = [
     description: {
       id: "Poster Turnamen yang saya buat karna ada tugas bahasa inggris untuk buat poster",
       en: "Tournament poster that I made because I had an English assignment to make a poster",
-    },
-  },
-  {
-    id: "d3",
-    title: "Poster Maulid Nabi 1447 Hijriah",
-    subtitle: { id: "Poster", en: "Poster" },
-    tone: 2,
-    image: "https://drive.google.com/file/d/1Yh20qTLYaUbJxNvkdNsYLg32RJFhhFMt/view?usp=drive_link",
-    description: {
-      id: "Poster Maulid Nabi tahun 1447 Hijriah",
-      en: "Poster of the Prophet's Birthday in 1447 Hijriah",
     },
   },
   {
