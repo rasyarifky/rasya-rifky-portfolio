@@ -45,8 +45,43 @@ export const social = [
 export const designs: Work[] = [
 
 
+
+
+  {
+    id: "d9",
+    title: "Logo TJKT",
+    subtitle: { id: "Logo", en: "Logo" },
+    tone: 9,
+    image: "https://drive.google.com/file/d/16EDEw9iOmlVr_GXJJ2j6MWwSgJpHYlvq/view?usp=drive_link",
+    description: {
+      id: "Logo ini saya buat untuk memenuhi tugas eskul Multimedia",
+      en: "I created this logo to fulfill the Multimedia extracurricular assignment.",
+    },
+  },
+  {
+    id: "d8",
+    title: "Poster Forest Expedition",
+    subtitle: { id: "Poster Film", en: "Brochure" },
+    tone: 8,
+    image: "https://drive.google.com/file/d/1vkaNqKx8LsyeWvoCLheEaY-oJ5BpyBYb/view?usp=drive_link",
+    description: {
+      id: "Poster Film ini saya buat karna hobby, di posternya saya edit poster seakan saya bermain film dan menjelajahi hutan bersama Fritzy",
+      en: "I made this film poster as a hobby, I edited the poster as if I was playing a film and exploring the forest with Fritzy",
+    },
+  },
   {
     id: "d7",
+    title: "Brosur Nasi Cokot",
+    subtitle: { id: "Brosur", en: "Brochure" },
+    tone: 7,
+    image: "https://drive.google.com/file/d/1Yl7ZRvkLkDMgUzf5kq1MP_J2lGDlFme8/view?usp=drive_link",
+    description: {
+      id: "Brosur ini saya buat untuk memenuhi tugas Kewirausahaan",
+      en: "I made this brochure to fulfill my Entrepreneurship assignment.",
+    },
+  },
+  {
+    id: "d6",
     title: "Poster Kampanye Anti Judol",
     subtitle: { id: "Poster Kampanye", en: "campaign poster" },
     tone: 6,
@@ -57,7 +92,7 @@ export const designs: Work[] = [
     },
   },
   {
-    id: "d6",
+    id: "d5",
     title: "Poster Kampanye Anti Judol",
     subtitle: { id: "Poster Kampanye", en: "campaign poster" },
     tone: 5,
@@ -68,7 +103,7 @@ export const designs: Work[] = [
     },
   },
   {
-    id: "d5",
+    id: "d4",
     title: "Poster Dakwah Kreatif Dalam Era Digital untuk Mengisi Kemerdekaan",
     subtitle: { id: "Poster Ilmiah", en: "Scientific Poster" },
     tone: 4,
@@ -79,7 +114,7 @@ export const designs: Work[] = [
     },
   },
   {
-    id: "d4",
+    id: "d3",
     title: "Poster Turnamen",
     subtitle: { id: "Poster", en: "Poster" },
     tone: 3,
