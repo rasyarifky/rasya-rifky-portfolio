@@ -3238,3 +3238,340 @@ footer {
     transition-delay: 0ms;
   }
 }
+
+/* ===== FOTO HERO FINAL: satu blok tanpa aturan yang bertabrakan ===== */
+
+.hero-core {
+  height: 290px;
+  margin-top: -4px;
+}
+
+/* Wadah karakter */
+.hero .avatar.photo-avatar {
+  position: relative;
+  z-index: 2;
+  width: 330px;
+  height: 290px;
+  overflow: visible;
+  transform: none;
+}
+
+/* Cahaya lembut di belakang */
+.hero .avatar.photo-avatar::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  bottom: 26px;
+  width: 220px;
+  height: 190px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(
+    circle,
+    rgba(16, 185, 129, 0.13) 0%,
+    rgba(16, 185, 129, 0.045) 45%,
+    transparent 72%
+  );
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+/* Foto karakter */
+.hero .avatar.photo-avatar > img {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: 0;
+  display: block;
+
+  width: 300px;
+  height: 270px;
+  max-width: none;
+
+  object-fit: contain;
+  object-position: center bottom;
+  transform: translateX(-50%);
+
+  filter:
+    drop-shadow(0 18px 18px rgba(0, 0, 0, 0.55))
+    drop-shadow(0 0 10px rgba(16, 185, 129, 0.1));
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 74%,
+    rgba(0, 0, 0, 0.86) 82%,
+    rgba(0, 0, 0, 0.38) 92%,
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 74%,
+    rgba(0, 0, 0, 0.86) 82%,
+    rgba(0, 0, 0, 0.38) 92%,
+    transparent 100%
+  );
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+/* Orbit utama */
+.hero .avatar.photo-avatar > .photo-halo {
+  position: absolute;
+  z-index: 1;
+  top: 31px;
+  left: 50%;
+  display: block;
+
+  width: 218px;
+  height: 218px;
+
+  border: 1px solid rgba(16, 185, 129, 0.42);
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 24px rgba(16, 185, 129, 0.08),
+    inset 0 0 20px rgba(16, 185, 129, 0.03);
+
+  transform: translateX(-50%);
+  animation: photoHaloRotate 18s linear infinite;
+  pointer-events: none;
+}
+
+/* Orbit tipis bagian dalam */
+.hero .avatar.photo-avatar > .photo-halo::before {
+  content: "";
+  position: absolute;
+  inset: 15px;
+  border: 1px dashed rgba(16, 185, 129, 0.1);
+  border-radius: 50%;
+}
+
+/* Titik bercahaya */
+.hero .avatar.photo-avatar > .photo-halo::after {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 15px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #18d99b;
+  box-shadow:
+    0 0 6px #18d99b,
+    0 0 15px rgba(24, 217, 155, 0.85);
+}
+
+/* Animasi orbit */
+@keyframes photoHaloRotate {
+  from {
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+/* Jarak karakter dengan deskripsi */
+.hero > p {
+  position: relative;
+  z-index: 4;
+  margin-top: 18px;
+}
+
+/* Tampilan HP */
+@media (max-width: 560px) {
+  .hero-core {
+    height: 255px;
+  }
+
+  .hero .avatar.photo-avatar {
+    width: 290px;
+    height: 255px;
+    transform: none;
+  }
+
+  .hero .avatar.photo-avatar > img {
+    width: 270px;
+    height: 240px;
+  }
+
+  .hero .avatar.photo-avatar > .photo-halo {
+    top: 28px;
+    width: 194px;
+    height: 194px;
+  }
+
+  .hero > p {
+    margin-top: 16px;
+  }
+}
+
+/* Mengikuti pengaturan pengurangan animasi */
+@media (prefers-reduced-motion: reduce) {
+  .hero .avatar.photo-avatar > .photo-halo {
+    animation: none;
+  }
+}
+
+
+
+
+
+
+
+/* ===== FOTO HALAMAN ABOUT ===== */
+
+.about-profile-photo {
+  position: relative;
+  width: 100%;
+  height: 570px;
+  overflow: hidden;
+  isolation: isolate;
+
+  background:
+    radial-gradient(
+      circle at 50% 48%,
+      rgba(16, 185, 129, 0.16),
+      rgba(16, 185, 129, 0.04) 38%,
+      transparent 65%
+    ),
+    #111715;
+
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+/* Foto karakter */
+.about-profile-photo > img {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 0;
+
+  display: block;
+  width: min(94%, 490px);
+  height: 94%;
+  max-width: none;
+
+  object-fit: contain;
+  object-position: center bottom;
+  transform: translateX(-50%);
+
+  filter:
+    drop-shadow(0 25px 24px rgba(0, 0, 0, 0.6))
+    drop-shadow(0 0 15px rgba(16, 185, 129, 0.1));
+
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 75%,
+    rgba(0, 0, 0, 0.88) 84%,
+    rgba(0, 0, 0, 0.45) 93%,
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to bottom,
+    #000 0%,
+    #000 75%,
+    rgba(0, 0, 0, 0.88) 84%,
+    rgba(0, 0, 0, 0.45) 93%,
+    transparent 100%
+  );
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+/* Lingkaran berputar */
+.about-photo-halo {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+  width: min(72%, 360px);
+  aspect-ratio: 1;
+
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 50%;
+
+  box-shadow:
+    0 0 35px rgba(16, 185, 129, 0.09),
+    inset 0 0 28px rgba(16, 185, 129, 0.04);
+
+  transform: translate(-50%, -50%);
+  animation: aboutHaloRotate 20s linear infinite;
+  pointer-events: none;
+}
+
+/* Orbit bagian dalam */
+.about-photo-halo::before {
+  content: "";
+  position: absolute;
+  inset: 22px;
+
+  border: 1px dashed rgba(16, 185, 129, 0.12);
+  border-radius: 50%;
+}
+
+/* Titik cahaya */
+.about-photo-halo::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 17px;
+
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+  background: #18d99b;
+
+  box-shadow:
+    0 0 6px #18d99b,
+    0 0 15px rgba(24, 217, 155, 0.75);
+}
+
+@keyframes aboutHaloRotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Tampilan HP */
+@media (max-width: 560px) {
+  .about-profile-photo {
+    height: 430px;
+  }
+
+  .about-profile-photo > img {
+    width: min(96%, 370px);
+    height: 92%;
+  }
+
+  .about-photo-halo {
+    width: min(70%, 270px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-photo-halo {
+    animation: none;
+  }
+}

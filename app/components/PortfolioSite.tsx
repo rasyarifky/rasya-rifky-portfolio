@@ -817,22 +817,9 @@ function Home({
         </div>
         <div className="hero-core">
           <div className="side-note">{t.role}</div>
-          <div
-            className="avatar"
-            aria-label="Illustrated avatar of Rasya Rifky"
-          >
-            <span className="halo" />
-            <span className="head">
-              <i className="brow left" />
-              <i className="brow right" />
-              <i className="eye left" />
-              <i className="eye right" />
-              <i className="nose" />
-            </span>
-            <span className="hair" />
-            <span className="neck" />
-            <span className="body" />
-            <b>FYRNNN</b>
+          <div className="avatar photo-avatar">
+            <span className="photo-halo" aria-hidden="true" />
+            <img src="/images/char.png" alt="Foto Char Minecraft" />
           </div>
           <div className="handle">01 / 05</div>
         </div>
@@ -982,34 +969,40 @@ function About({ t }: { t: CopyText }) {
   return (
     <section className="inner about">
       <div className="page-kicker">
-        <span>02</span>
+        <span>01</span>
         {t.aboutKicker}
       </div>
+
       <h1>{t.aboutTitle}</h1>
+
       <div className="about-grid">
-        <div className="avatar large">
-          <span className="halo" />
-          <span className="head" />
-          <span className="hair" />
-          <span className="body" />
-          <b>FYRNNN</b>
+        <div className="about-profile-photo">
+          <span className="about-photo-halo" aria-hidden="true" />
+
+          <img
+            src="/images/char.png"
+            alt="Foto Rasya Rifky"
+          />
         </div>
+
         <div className="stories">
           {[
             ["01", t.profile, t.profileText],
             ["02", t.why, t.whyText],
             ["03", t.nameStory, t.nameText],
-          ].map((x) => (
-            <article key={x[0]}>
-              <span>{x[0]}</span>
+          ].map((item) => (
+            <article key={item[0]}>
+              <span>{item[0]}</span>
+
               <div>
-                <h2>{x[1]}</h2>
-                <p>{x[2]}</p>
+                <h2>{item[1]}</h2>
+                <p>{item[2]}</p>
               </div>
             </article>
           ))}
         </div>
       </div>
+
       <div className="huge-word">FYRNNN</div>
     </section>
   );
