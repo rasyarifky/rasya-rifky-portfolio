@@ -29,8 +29,12 @@ export const social = [
     url: "https://www.instagram.com/rasyarifky_/",
   },
   { label: "TikTok", mark: "TK", url: "tiktok.com/@rasyarifkyy" },
-  { label: "X", mark: "X", url: "https://x.com" },
-  { label: "GitHub", mark: "GH", url: "https://github.com/rasyarifky" },
+  { label: "X", 
+    mark: "X", 
+    url: "https://x.com" },
+  { label: "GitHub", 
+    mark: "GH", 
+    url: "https://github.com/rasyarifky" },
 ];
 
 // Media dapat berupa path lokal atau link berbagi Google Drive.
@@ -42,7 +46,7 @@ export const designs: Work[] = [
   {
     id: "d1",
     title: "Brosur SPMB SMK YAPIS",
-    subtitle: { id: "Brosur", en: "Brosur" },
+    subtitle: { id: "Brosur", en: "Brochure" },
     tone: 1,
     image: "https://drive.google.com/file/d/170UFDHXjCqKUIRj2WWFMFF_-KGlF6qly/view?usp=drive_link",
     description: {
@@ -52,32 +56,35 @@ export const designs: Work[] = [
   },
   {
     id: "d2",
-    title: "Ruang Tumbuh",
-    subtitle: { id: "Poster editorial", en: "Editorial poster" },
+    title: "Poster Maulid Nabi 1447 Hijriah",
+    subtitle: { id: "Poster", en: "Poster" },
     tone: 2,
+    image: "https://drive.google.com/file/d/1Yh20qTLYaUbJxNvkdNsYLg32RJFhhFMt/view?usp=drive_link",
     description: {
-      id: "Komposisi editorial yang membahas ruang aman untuk bertumbuh, gagal, dan mencoba kembali.",
-      en: "An editorial composition about a safe space to grow, fail, and try again.",
+      id: "Poster Maulid Nabi tahun 1447 Hijriah",
+      en: "Poster of the Prophet's Birthday in 1447 Hijriah",
     },
   },
   {
     id: "d3",
-    title: "Nocturne 03",
-    subtitle: { id: "Identitas visual", en: "Visual identity" },
+    title: "Poster Turnamen",
+    subtitle: { id: "Poster", en: "Poster" },
     tone: 3,
+    image: "https://drive.google.com/file/d/1fhv4LBC31bgWD9dEU1izEBZxPw1CQBMu/view?usp=drive_link",
     description: {
-      id: "Studi warna, ritme, dan tipografi yang terinspirasi suasana kota setelah tengah malam.",
-      en: "A study of color, rhythm, and typography inspired by the city after midnight.",
+      id: "Poster Turnamen yang saya buat karna ada tugas bahasa inggris untuk buat poster",
+      en: "Tournament poster that I made because I had an English assignment to make a poster",
     },
   },
   {
     id: "d4",
-    title: "Gelora",
-    subtitle: { id: "Visual kampanye", en: "Campaign visual" },
+    title: "Poster Dakwah Kreatif Dalam Era Digital untuk Mengisi Kemerdekaan",
+    subtitle: { id: "Poster Ilmiah", en: "Scientific Poster" },
     tone: 4,
+    image: "https://drive.google.com/file/d/10NhQSPJIvauErLk2osFfAla1iP4ksSrI/view?usp=drive_link",
     description: {
-      id: "Identitas visual yang menangkap energi kolektif dan keberanian untuk mengambil ruang.",
-      en: "A visual identity that captures collective energy and the courage to take space.",
+      id: "Poster ini saya buat atas dasar ikut lomba yang disediakan oleh MUI Kabupaten Mimika.",
+      en: "I made this poster based on participating in a competition held by the MUI of Mimika Regency.",
     },
   },
   {

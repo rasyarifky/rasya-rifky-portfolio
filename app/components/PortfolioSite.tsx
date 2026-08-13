@@ -33,7 +33,7 @@ const copy = {
     design: "Design",
     program: "Program",
     animation: "Animation",
-    eyebrow: "DESAINER KREATIF × PROGRAMMER YANG SELALU PENASARAN",
+    eyebrow: "DESAINER KREATIF × PROGRAMMER PENASARAN",
     role: "DESAINER × DEVELOPER",
     intro:
       "Saya Rasya Rifky — lebih dikenal sebagai Fyrnnn. Saya mengubah ide menjadi visual yang layak diperhatikan, dan kode menjadi pengalaman yang layak digunakan. Di sinilah kreativitas bertemu logika.",
