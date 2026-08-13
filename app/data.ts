@@ -46,6 +46,17 @@ export const designs: Work[] = [
 
 
   {
+    id: "d7",
+    title: "Poster Kampanye Anti Judol",
+    subtitle: { id: "Poster Kampanye", en: "campaign poster" },
+    tone: 4,
+    image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
+    description: {
+      id: "Poster ini saya buat untuk memenuhi tugas DKV",
+      en: "I made this poster to fulfill DKV's assignment",
+    },
+  },
+  {
     id: "d6",
     title: "Poster Kampanye Anti Judol",
     subtitle: { id: "Poster Kampanye", en: "campaign poster" },
@@ -58,17 +69,6 @@ export const designs: Work[] = [
   },
   {
     id: "d5",
-    title: "Poster Kampanye Anti Judol",
-    subtitle: { id: "Poster Kampanye", en: "campaign poster" },
-    tone: 4,
-    image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
-    description: {
-      id: "Poster ini saya buat untuk memenuhi tugas DKV",
-      en: "I made this poster to fulfill DKV's assignment",
-    },
-  },
-  {
-    id: "d4",
     title: "Poster Dakwah Kreatif Dalam Era Digital untuk Mengisi Kemerdekaan",
     subtitle: { id: "Poster Ilmiah", en: "Scientific Poster" },
     tone: 4,
@@ -79,7 +79,7 @@ export const designs: Work[] = [
     },
   },
   {
-    id: "d3",
+    id: "d4",
     title: "Poster Turnamen",
     subtitle: { id: "Poster", en: "Poster" },
     tone: 3,
@@ -90,7 +90,7 @@ export const designs: Work[] = [
     },
   },
   {
-    id: "d2",
+    id: "d3",
     title: "Poster Maulid Nabi 1447 Hijriah",
     subtitle: { id: "Poster", en: "Poster" },
     tone: 2,
