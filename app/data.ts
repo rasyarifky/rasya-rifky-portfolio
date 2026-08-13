@@ -87,27 +87,7 @@ export const designs: Work[] = [
       en: "I made this poster based on participating in a competition held by the MUI of Mimika Regency.",
     },
   },
-  {
-    id: "d5",
-    title: "Koneksi",
-    subtitle: { id: "Kolase digital", en: "Digital collage" },
-    tone: 5,
-    description: {
-      id: "Kolase digital tentang hubungan manusia, teknologi, dan jarak yang terus berubah.",
-      en: "A digital collage about people, technology, and the ever-changing meaning of distance.",
-    },
-  },
-  {
-    id: "d6",
-    title: "Sela",
-    subtitle: { id: "Eksplorasi tipografi", en: "Type exploration" },
-    tone: 6,
-    description: {
-      id: "Eksplorasi tipografi yang melihat jeda sebagai bagian penting dari sebuah cerita.",
-      en: "A typography exploration that treats pauses as an essential part of a story.",
-    },
-  },
-];
+
 
 export const programs: Work[] = [
   {
