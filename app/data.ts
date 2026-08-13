@@ -87,7 +87,7 @@ export const designs: Work[] = [
       en: "I made this poster based on participating in a competition held by the MUI of Mimika Regency.",
     },
   },
-
+];
 
 export const programs: Work[] = [
   {
