@@ -43,26 +43,39 @@ export const social = [
 // Pastikan akses Drive diatur ke "Siapa saja yang memiliki link".
 
 export const designs: Work[] = [
+
+
   {
-    id: "d1",
-    title: "Brosur SPMB SMK YAPIS",
-    subtitle: { id: "Brosur", en: "Brochure" },
-    tone: 1,
-    image: "https://drive.google.com/file/d/170UFDHXjCqKUIRj2WWFMFF_-KGlF6qly/view?usp=drive_link",
+    id: "d6",
+    title: "Poster Kampanye Anti Judol",
+    subtitle: { id: "Poster Kampanye", en: "campaign poster" },
+    tone: 4,
+    image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
     description: {
-      id: "Brosur informasi tentang penerimaan murid baru di sekolah SMK YAPIS",
-      en: "Information brochure about accepting new students at YAPIS Vocational School",
+      id: "Poster ini saya buat untuk memenuhi tugas DKV",
+      en: "I made this poster to fulfill DKV's assignment",
     },
   },
   {
-    id: "d2",
-    title: "Poster Maulid Nabi 1447 Hijriah",
-    subtitle: { id: "Poster", en: "Poster" },
-    tone: 2,
-    image: "https://drive.google.com/file/d/1Yh20qTLYaUbJxNvkdNsYLg32RJFhhFMt/view?usp=drive_link",
+    id: "d5",
+    title: "Poster Kampanye Anti Judol",
+    subtitle: { id: "Poster Kampanye", en: "campaign poster" },
+    tone: 4,
+    image: "https://drive.google.com/file/d/1YApM6EcbnC2RMVENoieZ_ceNmZtu07gW/view?usp=drive_link",
     description: {
-      id: "Poster Maulid Nabi tahun 1447 Hijriah",
-      en: "Poster of the Prophet's Birthday in 1447 Hijriah",
+      id: "Poster ini saya buat untuk memenuhi tugas DKV",
+      en: "I made this poster to fulfill DKV's assignment",
+    },
+  },
+  {
+    id: "d4",
+    title: "Poster Dakwah Kreatif Dalam Era Digital untuk Mengisi Kemerdekaan",
+    subtitle: { id: "Poster Ilmiah", en: "Scientific Poster" },
+    tone: 4,
+    image: "https://drive.google.com/file/d/10NhQSPJIvauErLk2osFfAla1iP4ksSrI/view?usp=drive_link",
+    description: {
+      id: "Poster ini saya buat atas dasar ikut lomba yang disediakan oleh MUI Kabupaten Mimika.",
+      en: "I made this poster based on participating in a competition held by the MUI of Mimika Regency.",
     },
   },
   {
@@ -77,17 +90,40 @@ export const designs: Work[] = [
     },
   },
   {
-    id: "d4",
-    title: "Poster Dakwah Kreatif Dalam Era Digital untuk Mengisi Kemerdekaan",
-    subtitle: { id: "Poster Ilmiah", en: "Scientific Poster" },
-    tone: 4,
-    image: "https://drive.google.com/file/d/10NhQSPJIvauErLk2osFfAla1iP4ksSrI/view?usp=drive_link",
+    id: "d2",
+    title: "Poster Maulid Nabi 1447 Hijriah",
+    subtitle: { id: "Poster", en: "Poster" },
+    tone: 2,
+    image: "https://drive.google.com/file/d/1Yh20qTLYaUbJxNvkdNsYLg32RJFhhFMt/view?usp=drive_link",
     description: {
-      id: "Poster ini saya buat atas dasar ikut lomba yang disediakan oleh MUI Kabupaten Mimika.",
-      en: "I made this poster based on participating in a competition held by the MUI of Mimika Regency.",
+      id: "Poster Maulid Nabi tahun 1447 Hijriah",
+      en: "Poster of the Prophet's Birthday in 1447 Hijriah",
+    },
+  },
+  {
+    id: "d2",
+    title: "Poster Maulid Nabi 1447 Hijriah",
+    subtitle: { id: "Poster", en: "Poster" },
+    tone: 2,
+    image: "https://drive.google.com/file/d/1Yh20qTLYaUbJxNvkdNsYLg32RJFhhFMt/view?usp=drive_link",
+    description: {
+      id: "Poster Maulid Nabi tahun 1447 Hijriah",
+      en: "Poster of the Prophet's Birthday in 1447 Hijriah",
+    },
+  },
+  {
+    id: "d1",
+    title: "Brosur SPMB SMK YAPIS",
+    subtitle: { id: "Brosur", en: "Brochure" },
+    tone: 1,
+    image: "https://drive.google.com/file/d/170UFDHXjCqKUIRj2WWFMFF_-KGlF6qly/view?usp=drive_link",
+    description: {
+      id: "Brosur informasi tentang penerimaan murid baru di sekolah SMK YAPIS",
+      en: "Information brochure about accepting new students at YAPIS Vocational School",
     },
   },
 ];
+
 
 export const programs: Work[] = [
   {
