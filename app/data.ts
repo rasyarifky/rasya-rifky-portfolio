@@ -44,6 +44,7 @@ export const designs: Work[] = [
     title: "Brosur SPMB SMK YAPIS",
     subtitle: { id: "Brosur", en: "Brosur" },
     tone: 1,
+    image: "https://drive.google.com/file/d/170UFDHXjCqKUIRj2WWFMFF_-KGlF6qly/view?usp=drive_link",
     description: {
       id: "Brosur informasi tentang penerimaan murid baru di sekolah SMK YAPIS",
       en: "Information brochure about accepting new students at YAPIS Vocational School",
