@@ -14,7 +14,7 @@ export type Work = {
 };
 
 export const siteConfig = {
-  supportUrl: "https://saweria.co",
+  supportUrl: "https://saweria.co/rasyarifky",
 };
 
 export const social = [
