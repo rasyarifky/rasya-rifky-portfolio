@@ -64,6 +64,24 @@ export const metadata: Metadata = {
     title: "Rasya Rifky — Designer, Developer & Animator",
     description: "Design, code, and motion portfolio by Rasya Rifky.",
   },
+
+  icons: {
+    icon: [
+      {
+        url: "/images/favicon.jpg",
+        type: "image/jpeg",
+        sizes: "512x512",
+      },
+    ],
+    shortcut: "/images/favicon.jpg",
+    apple: [
+      {
+        url: "/images/favicon.jpg",
+        type: "image/jpeg",
+        sizes: "180x180",
+      },
+    ],
+  },
 };
 
 export const viewport: Viewport = {
