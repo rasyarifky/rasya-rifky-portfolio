@@ -28,7 +28,7 @@ export const social = [
     mark: "IG",
     url: "https://www.instagram.com/rasyarifky_/",
   },
-  { label: "TikTok", mark: "TK", url: "tiktok.com/@rasyarifkyy" },
+  { label: "TikTok", mark: "TK", url: "https://www.tiktok.com/@rasyarifkyy" },
   { label: "X", 
     mark: "X", 
     url: "https://x.com" },
